@@ -11,6 +11,9 @@ class NormalViewController: UIViewController {
 
     @IBOutlet weak var normalLable: UILabel!
     
+    @IBAction func popBack(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
     var normalText: String?
     
     override func viewDidLoad() {
