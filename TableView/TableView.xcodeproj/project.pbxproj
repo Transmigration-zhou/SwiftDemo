@@ -28,6 +28,7 @@
 		2B0E23CF28103AA7000EEC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B0E23D528110CEB000EEC16 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		2B0E23D728114FC9000EEC16 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2B8A5A2E2811703D0053445E /* TableView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableView.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		2B0E23C028103AA5000EEC16 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				2B8A5A2E2811703D0053445E /* TableView.entitlements */,
 				2B0E23C128103AA5000EEC16 /* AppDelegate.swift */,
 				2B0E23C328103AA5000EEC16 /* SceneDelegate.swift */,
 				2B0E23C528103AA5000EEC16 /* ViewController.swift */,
@@ -301,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TableView/TableView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TableView/TableView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

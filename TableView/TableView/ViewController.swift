@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         tableView.reloadData()
     }
     var data = [
-        Post(avatar: "flamingo", image: "Card", nickname: "Flamingo", username: "熠丶", content: "/日月星辰 梦想成真", created_at: "4 years ago"),
-        Post(avatar: "flamingo", image: "Book", nickname: "Flamingo", username: "熠丶", content: "/日月星辰 梦想成真", created_at: "4 years ago"),
+        Post(avatar: "flamingo", image: "Card", nickname: "Flamingo", username: "熠丶", content: "熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠熠", created_at: "22 days ago"),
+        Post(avatar: "flamingo", image: "Book", nickname: "Flamingo", username: "熠丶", content: "xhgybbybz", created_at: "3 years ago"),
         Post(avatar: "flamingo", image: "ipad", nickname: "Flamingo", username: "熠丶", content: "/日月星辰 梦想成真", created_at: "4 years ago")
     ]
         
