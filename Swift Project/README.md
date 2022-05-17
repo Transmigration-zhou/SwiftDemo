@@ -10,3 +10,4 @@
 ![CustomFonts](CustomFontsGif.gif)
 
 ### FindMyPosition
+![FindMyPosition](FindMyPosition.gif)
